@@ -1,5 +1,6 @@
-package com.example.testtask;
+package com.example.testtask.tests;
 
+import com.example.testtask.fw.ApplicationManager;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
