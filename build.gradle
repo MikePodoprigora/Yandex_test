@@ -20,7 +20,7 @@ dependencies {
     implementation 'org.testng:testng:7.1.0'
 }
 
-task testRegression (type:Test) {
+test{
     useTestNG()
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
